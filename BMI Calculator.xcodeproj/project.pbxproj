@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		7D9A07A625963B7600747E1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A07A525963B7600747E1C /* AppDelegate.swift */; };
 		7D9A07A825963B7600747E1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A07A725963B7600747E1C /* SceneDelegate.swift */; };
-		7D9A07AA25963B7600747E1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A07A925963B7600747E1C /* ViewController.swift */; };
+		7D9A07AA25963B7600747E1C /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A07A925963B7600747E1C /* CalculateViewController.swift */; };
 		7D9A07AD25963B7600747E1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9A07AB25963B7600747E1C /* Main.storyboard */; };
 		7D9A07AF25963B7900747E1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9A07AE25963B7900747E1C /* Assets.xcassets */; };
 		7D9A07B225963B7900747E1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9A07B025963B7900747E1C /* LaunchScreen.storyboard */; };
+		7DF296E62596BFCD00FF3CB2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF296E52596BFCD00FF3CB2 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D9A07A225963B7600747E1C /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9A07A525963B7600747E1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D9A07A725963B7600747E1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7D9A07A925963B7600747E1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D9A07A925963B7600747E1C /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		7D9A07AC25963B7600747E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D9A07AE25963B7900747E1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D9A07B125963B7900747E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D9A07B325963B7900747E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF296E52596BFCD00FF3CB2 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = "BMI Calculator/View/ResultViewController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 		7D9A07BA25963BF800747E1C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7D9A07A925963B7600747E1C /* ViewController.swift */,
+				7DF296E52596BFCD00FF3CB2 /* ResultViewController.swift */,
+				7D9A07A925963B7600747E1C /* CalculateViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -154,9 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D9A07AA25963B7600747E1C /* ViewController.swift in Sources */,
+				7D9A07AA25963B7600747E1C /* CalculateViewController.swift in Sources */,
 				7D9A07A625963B7600747E1C /* AppDelegate.swift in Sources */,
 				7D9A07A825963B7600747E1C /* SceneDelegate.swift in Sources */,
+				7DF296E62596BFCD00FF3CB2 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
