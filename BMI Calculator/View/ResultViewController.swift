@@ -9,20 +9,27 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-    
+  
     var bmiValue: String?
+    var advice: String?
+    var color = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
     @IBOutlet weak var bmiLabel: UILabel!
     @IBOutlet weak var adviceLabel: UILabel!
-    @IBOutlet weak var recalculateLabel: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         bmiLabel.text = bmiValue
+        adviceLabel.text = advice
+        view.backgroundColor = color
 
         // Do any additional setup after loading the view.
     }
     
 
+    @IBAction func recalculatePressed(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 
